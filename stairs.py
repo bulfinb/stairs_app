@@ -60,7 +60,7 @@ class Stairs(object):
 
     def calculate(self):
         # calculate the staircase paramaters
-        self.trs = (self.travel_max-self.overhang)/self.going
+        self.trs = int((self.travel_max-self.overhang)/self.going)
         self.rise = self.height/(1.0+self.trs)
         self.pitch = math.degrees(
             math.atan(self.height/(self.trs*self.going+float(self.going))))
@@ -205,7 +205,7 @@ class Stairs(object):
             ["Safety Bars # l", self.trs-1, self.width-self.sw],
             ["Braces # l", 3, self.width-2*self.sw],
                       ["Cleats #", 2*self.trs]]
-        cs = csv.writer(open(os.path.join("output", self.name+'_parts.csv'), "wb"))
+        cs = csv.writer(open(os.path.join("output", self.name+'_parts.csv'), "w"))
         for row in self.parts:
             cs.writerow(row)
 
@@ -455,7 +455,7 @@ class CornerStairs(Stairs):
             ["Safety Bars #, l", self.trs-1, self.width-self.sw],
             ["Braces #, l", 3, self.width-2*self.sw],
             ["Cleats #", 2*self.trs]]
-        cs = csv.writer(open(os.path.join("output", self.name+'_parts.csv'), "wb"))
+        cs = csv.writer(open(os.path.join("output", self.name+'_parts.csv'), "w"))
         for row in self.parts:
             cs.writerow(row)
 

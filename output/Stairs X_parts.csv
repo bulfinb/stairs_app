@@ -1,0 +1,47 @@
+Stairs X
+GENERAL ATTRIBUTES
+Pitch ,40.6
+Rise ,214.3
+Going ,250
+Height ,3000
+Width ,950
+Threads Tot F1 F2,13,8,4
+Travels F1 F2,2010,1020
+Landing height,1929
+Overlap landing,130
+Proj. Dec. H and V ,1.3171,1.5366
+Overhang top,20
+Width ,950
+2R+G ,678
+MESUREMENTS
+FLIGHT #1
+1,stringer length,2535
+1A,stringer plan length,1925
+2,handrail length,2535
+3,bottom post length,1190
+4,nick to string,83
+4A,nick to cleat top,254
+5,bottom cleat height,171
+6,base plate to string,87
+FLIGHT #2
+1,stringer length,1120
+1A,stringer plan length,850
+2,handrail length,1067
+3,Corner post length,1468
+4,top post length,1214
+5,Landing to sringer,167
+6,Bottom of post to landing,198
+7,bottom cleat to landing,174
+8,bottom of post to stringer,366
+9,nick to string,70
+9A,nick to cleat top,254
+BOTH
+1,spindel length,826
+2,string to bottom rail,627
+3,cleat to string,18
+4,Cleat distances,329,659,988,1317,1646,1976,2305
+PARTS
+"Threads #, w, d, t",13,867,280,40
+"Safety Bars #, l",12,910
+"Braces #, l",3,870
+Cleats #,26
